@@ -7197,7 +7197,7 @@ ul:not(.cs-mega_wrapper)
   height: 600px;
   width: 600px;
   border-radius: 50%;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(41, 0, 208, 0.2) 0%, rgba(24, 24, 24, 0.2) 100%);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(6, 231, 25, 0.2) 0%, rgba(1, 75, 29, 0.2) 100%);
   -webkit-filter: blur(50px);
           filter: blur(50px);
 }
