@@ -773,3 +773,20 @@ document.addEventListener('DOMContentLoaded', function() {
   const currentYear = new Date().getFullYear();
   yearSpan.textContent = currentYear;
 });
+
+function setFavicon() {
+  const link = document.querySelector("link[rel*='icon']");
+  const darkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+  if (darkMode) {
+    link.href = "assets/img/logo/eox_logo2.png"; // Favicon para modo oscuro
+  } else {
+    link.href = "assets/img/logo/eox_logo2.png"; // Favicon para modo claro
+  }
+}
+
+// Cambia el favicon al cargar la página
+setFavicon();
+
+// Cambia el favicon si el usuario cambia de modo claro/oscuro en tiempo real
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", setFavicon);
