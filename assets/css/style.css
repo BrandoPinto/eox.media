@@ -1522,7 +1522,7 @@ label {
 
 .video-responsive {
   position: relative;
-  padding-bottom: 46.25%; /* Mantiene la proporción 16:9 */
+  padding-bottom: 55.25%; /* Mantiene la proporción 16:9 */
   height: 0;
   overflow: hidden;
   max-width: 100%;
@@ -1530,7 +1530,7 @@ label {
 }
 @media (max-width: 768px) {
   .video-responsive video {
-    padding-bottom: 60.25%; /* Mantiene la proporción 16:9 */
+    padding-bottom: 40.25%; /* Mantiene la proporción 16:9 */
     overflow: hidden;
     max-width: 100%;
     background: #000; /* Color de fondo opcional */
